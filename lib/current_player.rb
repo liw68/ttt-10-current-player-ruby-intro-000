@@ -3,7 +3,7 @@ board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
 turns = 0
 def turn_count(board)
   board.each do |spot|
-    board = #{"X" | "O"}
+    if spot == "X" || "O"
     turns += 1
   end
 end
