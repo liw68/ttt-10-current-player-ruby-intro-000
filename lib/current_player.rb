@@ -2,9 +2,9 @@ board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
 
 turns = 0
 def turn_count(board)
-  board.each do |board|
+  board.each do |spot|
     board = #{"X" | "O"}
-    counter += 1
+    turns += 1
   end
 end
 
